@@ -1,0 +1,152 @@
+.restaurant{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.w100{
+    width: 100%;
+}
+.d_flex{
+    display: flex;
+}
+.fd_column{
+    flex-direction: column ;
+}
+
+.header{
+    position: relative;
+    height: 150vh;
+    background: url("img/hero image.png") no-repeat center/cover;
+    padding: 50px 10% 300px;
+    margin-bottom: 200px;
+}
+.header__top{
+   justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.header__top_nav{
+   justify-content: end;
+    column-gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+.header__top_nav>img{
+    width: 19px;
+    height: 17px;
+    margin-right: 10px;
+}
+.header__top_right{
+    justify-content: end;
+    border-left: 1px solid white;
+    align-items: center;
+    padding-left: 0;
+    width: 45%;
+}
+
+.header__top_phone{
+    width: 50%;
+    column-gap: 20px;
+}
+.header__top_phone img{
+    width: 16px;
+}
+.button{
+    color: white;
+    width: 150px;
+    height: 47px;
+    background: #FF7400;
+}
+
+.header__center{
+    width: 45%;
+    align-items: center;
+    color: white;
+    margin: 200px 0;
+}
+.header__center h2{
+    font-size: 35px;
+    color: #D67E35;
+}
+.header__center h1{
+    font-size: 60px;
+    color: #D67E35;
+}
+.header__center p{
+    width: 100%;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__center p::before,
+.header__center p::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10%;
+    background: white;
+}
+.header__center p::before{
+    margin-right: 10px;
+}
+.header__center p::after{
+    margin-left: 10px;
+}
+
+.header__bottom{
+    width: 80%;
+    position: absolute;
+    justify-content: space-around;
+    bottom: -150px;
+}
+.header__bottom_item{
+    width: 30%;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px
+    rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header__button_nav{
+    row-gap: 6px;
+    display: none;
+}
+
+.header__button_nav div{
+    width: 30px;
+    height: 3px;
+    background: #FF7400;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
